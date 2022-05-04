@@ -130,16 +130,13 @@ console.log(car3)
 console.log(car4)
 
 
-var carsForrent;
+let carsForRent = [car1, car2, car3, car4, car5];
 car.push(carsForrent);
 console.log(car)
 
 
-let remove = car.shift();
-    console.log(remove);
-    let removeLast = car.pop();
-console.log(removeLast);
-
+carsForRent.pop();
+carsForRent.shift();
 
 car1.license = '1111';
 car2.license = '2345';
@@ -151,19 +148,22 @@ car2.brand = 'audi';
 car3.brand = 'vols';
 car4.brand = 'fiat';
 car.brand= 'ssss';
+console.log(typeof car, typeof car.licensePlate, typeof car.brand);
 
-let  carsForSale =
-{ 
-    brand: 'bbb',
- model:7777,
-  licence: 66 }
 
- let  carsForRent ={ brand: 'sss', model:8888, licence: 22 }
+let carsForSale = [car1, car5, car2];
 
-let totalCars = carsForSale.concat(carsForRent);
 
-for (let carsForSale = 0; i < cars.length; i++) {
-    console.log(carsForSale[i]);
+ let totalCars = {
+    carsForSale: carsForSale.length,
+    carsForRent: carsForRent.length,
+  };
   
-}
+
+  for (let i = 0; i < carsForSale.length; i++) {
+    console.log(carsForSale[i].brand);
+    console.log(carsForSale[i].model);
+    console.log(carsForSale[i].licensePlate);
+  }
+
   
