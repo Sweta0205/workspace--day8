@@ -48,12 +48,12 @@ console.log(student)
  Create a second object with another name, surname, email address and verify that this object has a different email address than the previous one.
 */
 
-/* var student2{
+/* let student2{
     name: "saikiran"
     surname: "sreeeee"
     email : "sai.sweta2311.com"
     age :28
-var eq = student1.email == student2.email;
+let  eq = student1.email == student2.email;
 alert(eq);
 } */
 
@@ -63,7 +63,8 @@ alert(eq);
  Write an algorithm that calculates the total cost to charge the user with.
 */
 
-/* var totalShoppingCart ;
+/*
+ let  totalShoppingCart ;
 if(totalShoppingCart>50)
 {
 totalcost="totalshoppingCart + 0"
@@ -85,7 +86,7 @@ totalcost="totalshoppingCart + 10"
 
 
 /*
-var blackfridaydiscount =20%
+let  blackfridaydiscount =20%
 if((totalShoppingCart>50)
 {
     totalcost =blackfridaydiscount+ totalshoppingcart
@@ -143,6 +144,7 @@ console.log(clone);
 /* 
 var carsForrent;
 car.push(carsForrent);
+console.log(car)
 
  */
 
@@ -183,11 +185,11 @@ car.brand= 'ssss';
  Create a new variable called totalCars and assign to it the total number of cars present in the carsForSale and carsForRent arrays.
 */
 
-/* var  carsForSale { brand: 'bbb', model:7777, licence: 66 }
+/* let  carsForSale { brand: 'bbb', model:7777, licence: 66 }
 
- var  carsForRent { brand: 'sss', model:8888, licence: 22 }
+ let  carsForRent { brand: 'sss', model:8888, licence: 22 }
 
-var totalCars = carsForSale.concat(carsForRent);
+let totalCars = carsForSale.concat(carsForRent);
 
 
  */

@@ -57,5 +57,113 @@ for (var i = 0; i < strings1.length; i++){
 }
 console.log(newArray1);
 
+const arr2 = [1, 2, 3, 4, 5, ];
+console.log(arr2)
 
 
+var student ={
+    name: "sweta",
+    surname: "sriramadasu",
+    emailaddress: "swethasriramdas2311@gmail.com",
+    age :26,
+    hasdrivinglicence: true
+    
+}
+console.log(student)
+delete student.age
+console.log(student)
+
+
+let student2 ={
+    name: "saikiran",
+    surname: "sreeeee",
+    email : "sai.sweta2311.com",
+    age :28
+}
+
+let  eq = student.email == student2.email
+console.log(eq);
+
+let  x =100;
+let totalcost;
+if(x>50)
+{
+
+totalcost=x + 0
+}
+else
+{
+totalcost=x + 10
+
+}
+console.log(totalcost)
+
+
+let  y =20
+if(x>50)
+
+{
+    totalcost =x + y;
+}
+else
+{
+        totalcost =y+x+10;
+
+}
+console.log(totalcost)
+
+let  car ={
+    brand:"BMW",
+    model:"shhjj",
+    licence:"2222"
+} 
+let car1 = Object.assign({}, car);
+let car2 = Object.assign({}, car);
+let car3 = Object.assign({}, car);
+let car4 = Object.assign({}, car);
+console.log(car)
+console.log(car1)
+console.log(car2)
+console.log(car3)
+
+
+console.log(car4)
+
+
+var carsForrent;
+car.push(carsForrent);
+console.log(car)
+
+
+let remove = car.shift();
+    console.log(remove);
+    let removeLast = car.pop();
+console.log(removeLast);
+
+
+car1.license = '1111';
+car2.license = '2345';
+car3.license = '6666';
+car4.license = '7777';
+car.license = '2222';
+car1.brand = 'maruti';
+car2.brand = 'audi';
+car3.brand = 'vols';
+car4.brand = 'fiat';
+car.brand= 'ssss';
+
+let  carsForSale =
+{ 
+    brand: 'bbb',
+ model:7777,
+  licence: 66 }
+
+ let  carsForRent ={ brand: 'sss', model:8888, licence: 22 }
+
+let totalCars = carsForSale.concat(carsForRent);
+
+for (let carsForSale = 0; i < cars.length; i++) {
+    console.log(carsForSale[i]);
+  
+}
+  
